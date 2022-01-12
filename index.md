@@ -1,13 +1,14 @@
-# My Site
+# Posts
 
-test text
+Below is a list of all posts, sorted by date.
 
-list of posts:
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts | sort: "date" | reverse %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }} ({{ post.date }})</a>
     </li>
   {% endfor %}
 </ul>
+
+[about me](about.md)
 
