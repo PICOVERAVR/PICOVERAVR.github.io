@@ -10,5 +10,5 @@ Below is a list of all posts, sorted by date.
   {% endfor %}
 </ul>
 
-[about me](about.md)
+[About me](about.md)
 
