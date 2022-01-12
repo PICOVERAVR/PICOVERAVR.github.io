@@ -1,23 +1,8 @@
 ---
 layout: post
 title: "Configuring Manjaro Linux"
-categories: "guides"
-tags: "software linux manjaro"
 published: true
 ---
-
-category: 
-{% for cat in page.categories %}
-{{ cat }} 
-{% endfor %}, tags: 
-{% for tag in page.tags %}
-{{ tag }} 
-{% endfor %}
-  
 _last updated on {{ page.date | date_to_string: "ordinal", "US" }}_
-  
 stuff and things
-  
-<a href="{{ page.next }}">next post</a>
-<a href="{{ page.previous }}">previous post</a>
 
