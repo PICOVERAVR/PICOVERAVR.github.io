@@ -1,7 +1,8 @@
 # Website
 
-The source code for [my website](https://picoveravr.github.io).
+Source for [my website](https://picoveravr.github.io).
 
-## Helpful links
+## Helpful web dev links
  - [Jekyll global variables](https://jekyllrb.com/docs/variables/)
+ - [Liquid snippets](https://jekyllrb.com/docs/liquid/filters/)
 
