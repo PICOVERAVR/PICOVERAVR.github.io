@@ -1,7 +1,8 @@
 # Posts
 
-Below is a list of all posts, sorted by date.
+[About me](about.md)
 
+## Posts By Date
 <ul>
   {% for post in site.posts | sort: "date" | reverse %}
     <li>
@@ -9,6 +10,3 @@ Below is a list of all posts, sorted by date.
     </li>
   {% endfor %}
 </ul>
-
-[About me](about.md)
-
