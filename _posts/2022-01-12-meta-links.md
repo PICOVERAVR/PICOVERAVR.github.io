@@ -13,7 +13,7 @@ While working at `$JOB` this past summer, an older coworker asked me how I find 
 ## General information/Upstream
 I titled this section "upstream" because content on these sites is sometimes picked up by larger "downstream" sites.
 ### [Hacker News](https://news.ycombinator.com/)
-For me, Hacker News is where I find almost all of my interesting articles and is the source of most of my current bookmarks. It functions similarly to Reddit but is more or less dedicated to tech news and interesting projects or blog posts. Some might argue that the web UI looks a little dated, but on the other hand the entire website loads in _0.86 seconds_ on my desktop, while Reddit takes 15.2 seconds to load the entire site with an ad blocker. It also works great on mobile devices.
+For me, Hacker News is where I find almost all of my interesting articles and is the source of most of my current bookmarks. It functions similarly to Reddit but is more or less dedicated to tech news and interesting projects or blog posts. Some might argue that the web UI looks a little dated, but on the other hand the entire website loads in _0.86 seconds_ over ethernet, while Reddit takes 15.2 seconds to load the entire site with an ad blocker. It also works great on mobile devices.
   
 Sidenote: Any time AWS goes down, you hear about it here first. I recall waking up to "AWS is down" posts one morning last year and getting Apple News notifications about the same outage on my phone that afternoon.
 ### [Phoronix](https://www.phoronix.com/scan.php?page=home)
@@ -21,6 +21,7 @@ An absolute beast of a site in terms of Linux ecosystem coverage. I find this si
  - Newer distros are faster, especially on new hardware
  - New versions of gcc and clang rarely produce significantly faster code or better compile times
  - Clear Linux is the fastest Linux distribution
+  
 ## Hardware-focused
 My favorite articles from these sites generally revolve around either computer architecture or electronics.
 ### [AnandTech](https://www.anandtech.com/)
@@ -39,6 +40,7 @@ I'll probably update this page with more links in the future, so maybe check bac
 {% if page.next.url %}
 <a href="{{ page.next.url }}">Next: {{ page.next.title }}</a>
 {% endif %}
+
 {% if page.prev.url %}
 <a href="{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>
 {% endif %}
