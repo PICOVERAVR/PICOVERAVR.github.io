@@ -40,7 +40,6 @@ I'll probably update this page with more links in the future, so maybe check bac
 {% if page.next.url %}
 <a href="{{ page.next.url }}">Next: {{ page.next.title }}</a>
 {% endif %}
-
-{% if page.prev.url %}
+{% if page.previous.url %}
 <a href="{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>
 {% endif %}
